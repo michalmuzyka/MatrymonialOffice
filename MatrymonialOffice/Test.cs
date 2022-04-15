@@ -5,13 +5,14 @@ namespace MatrymonialOffice
 {
     public static class Test
     {
-        static Person MichalMuzyka = new Person()
+        static User MichalMuzyka = new User()
         {
             Name = "Michał Muzyka",
             Age = 23,
             Gender = Gender.Male,
             Height = 179,
-            Residence = new Coordinates() { Latitude = 52.4044, Longitude = 20.9499 },
+            Latitude = 52.4044, 
+            Longitude = 20.9499,
             Religion = Religion.Islam,
             Profession = Profession.Constructor,
             Education = Education.Primary,
@@ -31,7 +32,8 @@ namespace MatrymonialOffice
             Age = (18, 100),
             Gender = (Importance.Important, Gender.Male),
             Height = 180,
-            Residence = new Coordinates() { Latitude = 52.2370, Longitude = 21.0175 },
+            Latitude = 52.2370, 
+            Longitude = 21.0175,
             Religion = (Importance.Unimportant, null),
             Education = (Importance.Unimportant, null),
             Profession = (Importance.Unimportant, null),

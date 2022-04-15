@@ -2,13 +2,9 @@
 
 namespace MatrymonialOffice.Data
 {
-
-    public struct Coordinates
+    public static class Coordinates
     {
-        public double Longitude { get; set; }
-        public double Latitude { get; set; }
-
-        public static double Distance(Coordinates c1, Coordinates c2)
+        public static double Distance((double Latitude, double Longitude) c1, (double Latitude, double Longitude) c2)
         {
             const int EarthsRadius = 6371;
             double degreeToRadians(double degree) => degree * Math.PI / 180;

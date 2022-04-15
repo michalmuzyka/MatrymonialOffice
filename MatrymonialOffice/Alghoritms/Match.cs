@@ -4,7 +4,7 @@ namespace MatrymonialOffice.Alghoritms
 {
     public static class Match
     {
-        public static double MatchingFactor(Person potentialPartner, PartnerRequirements requirements)
+        public static double MatchingFactor(User potentialPartner, PartnerRequirements requirements)
         {
             double factor = 1.0;
 
@@ -13,7 +13,7 @@ namespace MatrymonialOffice.Alghoritms
             factor *= Affilations.Identity(potentialPartner.Profession, requirements.Profession);
             factor *= Affilations.Identity(potentialPartner.Religion, requirements.Religion);
             factor *= Affilations.Age(potentialPartner.Age, requirements.Age);
-            factor *= Affilations.Residence(potentialPartner.Residence, requirements.Residence);
+            factor *= Affilations.Residence((potentialPartner.Latitude, potentialPartner.Longitude), (requirements.Latitude, requirements.Longitude));
             factor *= Affilations.Height(potentialPartner.Height, requirements.Height);
             factor *= Affilations.Earnings(potentialPartner.Earnings, requirements.Earnings);
             factor *= Affilations.Attractiveness(potentialPartner.Attractiveness, requirements.Attractiveness);

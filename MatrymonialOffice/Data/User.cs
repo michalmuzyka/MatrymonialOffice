@@ -34,8 +34,9 @@ namespace MatrymonialOffice.Data
         Buddism
     }
 
-    public struct Person
+    public class User
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public int Attractiveness { get; set; }
@@ -45,7 +46,8 @@ namespace MatrymonialOffice.Data
         public Education Education { get; set; }
         public Profession Profession { get; set; }
         public Religion Religion { get; set; }
-        public Coordinates Residence { get; set; }
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
         public int FamilyImportance { get; set; }
         public int CarrerImportance { get; set; }
         public int HobbyImportance { get; set; }

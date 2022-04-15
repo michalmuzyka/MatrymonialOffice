@@ -17,7 +17,8 @@ namespace MatrymonialOffice.Data
         public (Importance, Education?) Education { get; set; }
         public (Importance, Profession?) Profession { get; set; }
         public (Importance, Religion?) Religion { get; set; }
-        public Coordinates Residence { get; set; }
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
         public int FamilyImportance { get; set; }
         public int CarrerImportance { get; set; }
         public int HobbyImportance { get; set; }

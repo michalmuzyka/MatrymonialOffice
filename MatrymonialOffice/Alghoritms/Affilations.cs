@@ -25,7 +25,7 @@ namespace MatrymonialOffice.Alghoritms
             return Math.Max((actual - desired.min + m) / m, 0);
         }
         public static double Height(int actual, int desired) => 1.0 / (1.0 + Math.Pow((actual - desired) / 4.0, 2));
-        public static double Residence(Coordinates actual, Coordinates desired) => 1.0 / (1.0 + Math.Pow(Coordinates.Distance(actual, desired) / 10, 2));
+        public static double Residence((double Latitude, double Longitude) actual, (double Latitude, double Longitude) desired) => 1.0 / (1.0 + Math.Pow(Coordinates.Distance(actual, desired) / 10, 2));
         public static double Earnings(int actual, (int min, int max) desired)
         {
             if (actual >= desired.min && actual <= desired.max)
