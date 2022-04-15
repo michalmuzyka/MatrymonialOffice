@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrymonialOffice", "MatrymonialOffice\MatrymonialOffice.csproj", "{3ABF9586-6FD4-4D52-BCBA-072DF6ACAF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABF9586-6FD4-4D52-BCBA-072DF6ACAF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABF9586-6FD4-4D52-BCBA-072DF6ACAF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABF9586-6FD4-4D52-BCBA-072DF6ACAF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABF9586-6FD4-4D52-BCBA-072DF6ACAF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F686175A-BC40-415C-A458-B05B90023C56}
+	EndGlobalSection
+EndGlobal
