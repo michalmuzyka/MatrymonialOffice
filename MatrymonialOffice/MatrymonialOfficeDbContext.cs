@@ -40,7 +40,7 @@ namespace MatrymonialOffice
             // generate 100 items
             modelBuilder
                 .Entity<User>()
-                .HasData(stock.GenerateBetween(100, 100));
+                .HasData(stock.GenerateBetween(1000, 1000));
         }
 
         public DbSet<User> Users { get; set; }

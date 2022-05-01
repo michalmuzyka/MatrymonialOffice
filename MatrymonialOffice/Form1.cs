@@ -17,5 +17,16 @@ namespace MatrymonialOffice
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.BackColor = ColorTranslator.FromHtml("#FAE3D9");
+            this.Icon = Properties.Resources.heart_icon;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var prefererencesForm = new PreferencesForm();
+            prefererencesForm.Show();
+        }
     }
 }
