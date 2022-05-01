@@ -17,7 +17,7 @@ namespace MatrymonialOffice.Alghoritms
             if (actual >= desired.min && actual <= desired.max)
                 return 1;
 
-            double m = (desired.max - desired.min)/ 2;
+            double m = (desired.max - desired.min) / 2.0;
 
             if (actual > desired.max)
                 return Math.Max((actual + desired.min - m) / m, 0);
@@ -25,13 +25,13 @@ namespace MatrymonialOffice.Alghoritms
             return Math.Max((actual - desired.min + m) / m, 0);
         }
         public static double Height(int actual, int desired) => 1.0 / (1.0 + Math.Pow((actual - desired) / 4.0, 2));
-        public static double Residence((double Latitude, double Longitude) actual, (double Latitude, double Longitude) desired) => 1.0 / (1.0 + Math.Pow(Coordinates.Distance(actual, desired) / 10, 2));
+        public static double Residence((double Latitude, double Longitude) actual, (double Latitude, double Longitude) desired) => 1.0 / (1.0 + Math.Pow(Coordinates.Distance(actual, desired) / 10.0, 2));
         public static double Earnings(int actual, (int min, int max) desired)
         {
             if (actual >= desired.min && actual <= desired.max)
                 return 1;
 
-            double m = (desired.max - desired.min) / 2;
+            double m = (desired.max - desired.min) / 2.0;
 
             if (actual > desired.max)
                 return Math.Max((actual + desired.min - m) / m, 0);
@@ -48,6 +48,6 @@ namespace MatrymonialOffice.Alghoritms
 
             return (actual - desired + 3) / 3.0;
         }
-        public static double ImportanceParameters(int actual, int desired) => (5 - Math.Abs(desired - actual)) / 5;
+        public static double ImportanceParameters(int actual, int desired) => (5 - Math.Abs(desired - actual)) / 5.0;
     }
 }
