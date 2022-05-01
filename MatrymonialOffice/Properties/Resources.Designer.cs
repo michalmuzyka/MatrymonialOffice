@@ -71,12 +71,192 @@ namespace MatrymonialOffice.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Wykształcenie wyższe.
+        /// </summary>
+        internal static string EducationHigher {
+            get {
+                return ResourceManager.GetString("EducationHigher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wykształcenie podstawowe.
+        /// </summary>
+        internal static string EducationPrimary {
+            get {
+                return ResourceManager.GetString("EducationPrimary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wykształcenie średnie.
+        /// </summary>
+        internal static string EducationSecondary {
+            get {
+                return ResourceManager.GetString("EducationSecondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kobieta.
+        /// </summary>
+        internal static string GenderFemale {
+            get {
+                return ResourceManager.GetString("GenderFemale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mężczyzna.
+        /// </summary>
+        internal static string GenderMale {
+            get {
+                return ResourceManager.GetString("GenderMale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         internal static System.Drawing.Icon heart_icon {
             get {
                 object obj = ResourceManager.GetObject("heart_icon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aktor.
+        /// </summary>
+        internal static string ProfessionActor {
+            get {
+                return ResourceManager.GetString("ProfessionActor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Budowniczy.
+        /// </summary>
+        internal static string ProfessionConstructor {
+            get {
+                return ResourceManager.GetString("ProfessionConstructor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kucharz.
+        /// </summary>
+        internal static string ProfessionCook {
+            get {
+                return ResourceManager.GetString("ProfessionCook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kierowca.
+        /// </summary>
+        internal static string ProfessionDriver {
+            get {
+                return ResourceManager.GetString("ProfessionDriver", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inżynier.
+        /// </summary>
+        internal static string ProfessionEngineer {
+            get {
+                return ResourceManager.GetString("ProfessionEngineer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Urzędnik.
+        /// </summary>
+        internal static string ProfessionOfficial {
+            get {
+                return ResourceManager.GetString("ProfessionOfficial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inny.
+        /// </summary>
+        internal static string ProfessionOther {
+            get {
+                return ResourceManager.GetString("ProfessionOther", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Żołnierz.
+        /// </summary>
+        internal static string ProfessionSoldier {
+            get {
+                return ResourceManager.GetString("ProfessionSoldier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nauczyciel.
+        /// </summary>
+        internal static string ProfessionTeacher {
+            get {
+                return ResourceManager.GetString("ProfessionTeacher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Buddyzm.
+        /// </summary>
+        internal static string ReligionBuddism {
+            get {
+                return ResourceManager.GetString("ReligionBuddism", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Katolicyzm.
+        /// </summary>
+        internal static string ReligionCatholic {
+            get {
+                return ResourceManager.GetString("ReligionCatholic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Islam.
+        /// </summary>
+        internal static string ReligionIslam {
+            get {
+                return ResourceManager.GetString("ReligionIslam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Judaizm.
+        /// </summary>
+        internal static string ReligionJudaism {
+            get {
+                return ResourceManager.GetString("ReligionJudaism", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Żadna.
+        /// </summary>
+        internal static string ReligionNone {
+            get {
+                return ResourceManager.GetString("ReligionNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prawosławie.
+        /// </summary>
+        internal static string ReligionOrthodox {
+            get {
+                return ResourceManager.GetString("ReligionOrthodox", resourceCulture);
             }
         }
     }
