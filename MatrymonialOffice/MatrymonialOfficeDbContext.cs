@@ -10,7 +10,7 @@ namespace MatrymonialOffice
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MatrymonialOffice;");
+            optionsBuilder.UseSqlServer(@"Server=tcp:partykliner.database.windows.net,1433;Initial Catalog=PartyKLINerDB;Persist Security Info=False;User ID=elitmownia;Password=Test1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
