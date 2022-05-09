@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace MatrymonialOffice
 {
     public partial class Form1 : Form
@@ -27,6 +28,23 @@ namespace MatrymonialOffice
         {
             var prefererencesForm = new PreferencesForm();
             prefererencesForm.Show();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void wyświetlUżytkownikówToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var viewUsersForm = new ViewUsersForm();
+            viewUsersForm.Show();
+        }
+
+        private void dodajUżytkownikaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var addUserForm = new Admin_forms.AddUserForm();
+            addUserForm.Show();
         }
     }
 }
