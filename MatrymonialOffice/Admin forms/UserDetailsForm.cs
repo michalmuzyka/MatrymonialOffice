@@ -140,5 +140,10 @@ namespace MatrymonialOffice.Admin_forms
             }
             else e.Graphics.FillRectangle(new SolidBrush(ColorTranslator.FromHtml("#FFC0CB")), e.CellBounds);
         }
+
+        private void UserDetailsForm_Load(object sender, EventArgs e)
+        {
+            this.Icon = Properties.Resources.heart_icon;
+        }
     }
 }

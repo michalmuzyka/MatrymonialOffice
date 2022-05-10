@@ -206,5 +206,10 @@ namespace MatrymonialOffice.Admin_forms
                 }
             }
         }
+
+        private void AddUserForm_Load(object sender, EventArgs e)
+        {
+            this.Icon = Properties.Resources.heart_icon;
+        }
     }
 }

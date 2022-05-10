@@ -53,6 +53,7 @@ namespace MatrymonialOffice
             this.Name = "ViewUsersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Użytkownicy";
+            this.Load += new System.EventHandler(this.ViewUsersForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             this.ResumeLayout(false);
 

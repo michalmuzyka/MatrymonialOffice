@@ -542,6 +542,7 @@ namespace MatrymonialOffice.Admin_forms
             this.Name = "UserDetailsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Szczegóły";
+            this.Load += new System.EventHandler(this.UserDetailsForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

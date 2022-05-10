@@ -14,9 +14,6 @@ namespace MatrymonialOffice
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            Test.TestMatchingAlghorithm();
-
             Application.Run(new Form1());
         }
     }

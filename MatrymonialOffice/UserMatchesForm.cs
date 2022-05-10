@@ -110,6 +110,7 @@ namespace MatrymonialOffice
             dataGridView1.Columns["Distance"].HeaderText = "Odległość (km)";
 
             dataGridView1.Columns["MatchRatio"].DisplayIndex = 0;
+            dataGridView1.Columns["MatchRatio"].DefaultCellStyle.Format = "0.########";
             dataGridView1.Columns["Name"].DisplayIndex = 1;
             dataGridView1.Columns["Distance"].DisplayIndex = 2;
         }
@@ -123,10 +124,10 @@ namespace MatrymonialOffice
             {
                 var ratio = Match.MatchingFactor(user, requirements);
                 var distance = Coordinates.Distance((user.Latitude, user.Longitude), (requirements.Latitude, requirements.Longitude));
-                matchedUsers.Add(new UserMatch(user, ratio, Math.Round(distance, 2)));
+                matchedUsers.Add(new UserMatch(user, Math.Round(ratio,10), Math.Round(distance, 2)));
             }
 
-            return matchedUsers.OrderByDescending(u => u.MatchRatio).Take(20).ToList();
+            return matchedUsers.OrderByDescending(u => u.MatchRatio).Where(x => x.MatchRatio != 0).Take(20).ToList();
         }
     }
 }

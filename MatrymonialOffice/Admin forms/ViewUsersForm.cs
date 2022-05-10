@@ -89,5 +89,10 @@ namespace MatrymonialOffice
                 userTable.EndEdit();
             }
         }
+
+        private void ViewUsersForm_Load_1(object sender, EventArgs e)
+        {
+            this.Icon = Properties.Resources.heart_icon;
+        }
     }
 }
