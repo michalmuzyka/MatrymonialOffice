@@ -20,7 +20,7 @@ namespace MatrymonialOffice.Alghoritms
             double m = (desired.max - desired.min) / 2.0;
 
             if (actual > desired.max)
-                return Math.Max((actual + desired.min - m) / m, 0);
+                return Math.Max((desired.max - actual + m) / m, 0);
 
             return Math.Max((actual - desired.min + m) / m, 0);
         }
@@ -34,7 +34,7 @@ namespace MatrymonialOffice.Alghoritms
             double m = (desired.max - desired.min) / 2.0;
 
             if (actual > desired.max)
-                return Math.Max((actual + desired.min - m) / m, 0);
+                return Math.Max((desired.max - actual + m) / m, 0);
 
             return Math.Max((actual - desired.min + m) / m, 0);
         }
