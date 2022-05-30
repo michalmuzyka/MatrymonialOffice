@@ -499,9 +499,10 @@
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox5.Location = new System.Drawing.Point(213, 353);
@@ -515,9 +516,10 @@
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox6.Location = new System.Drawing.Point(213, 388);
@@ -531,9 +533,10 @@
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox7.Location = new System.Drawing.Point(213, 423);
@@ -547,9 +550,10 @@
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox8.Location = new System.Drawing.Point(213, 458);
@@ -563,9 +567,10 @@
             this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox9.Location = new System.Drawing.Point(213, 493);
@@ -579,9 +584,10 @@
             this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox10.FormattingEnabled = true;
             this.comboBox10.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox10.Location = new System.Drawing.Point(213, 528);
@@ -595,9 +601,10 @@
             this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
-            "Nieistotne",
+            "Nieważne",
             "Bardzo małe",
             "Małe",
+            "Średnie",
             "Duże",
             "Bardzo duże"});
             this.comboBox11.Location = new System.Drawing.Point(213, 563);

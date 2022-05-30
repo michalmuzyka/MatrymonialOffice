@@ -526,7 +526,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 25);
             this.checkBox1.TabIndex = 21;
-            this.checkBox1.Text = "nie ważne";
+            this.checkBox1.Text = "nieważne";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -538,7 +538,7 @@
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(80, 25);
             this.checkBox2.TabIndex = 22;
-            this.checkBox2.Text = "nie ważne";
+            this.checkBox2.Text = "nieważne";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -563,7 +563,7 @@
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(80, 25);
             this.checkBox3.TabIndex = 24;
-            this.checkBox3.Text = "nie ważne";
+            this.checkBox3.Text = "nieważne";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
@@ -609,7 +609,7 @@
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(80, 25);
             this.checkBox4.TabIndex = 27;
-            this.checkBox4.Text = "nie ważne";
+            this.checkBox4.Text = "nieważne";
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
@@ -662,7 +662,7 @@
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -713,7 +713,7 @@
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -731,7 +731,7 @@
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -749,7 +749,7 @@
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -778,7 +778,7 @@
             this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -807,7 +807,7 @@
             this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox10.FormattingEnabled = true;
             this.comboBox10.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
@@ -836,7 +836,7 @@
             this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
-            "0 (nie ważne)",
+            "0 (nieważne)",
             "1 (bardzo mało ważne)",
             "2 (mało ważne)",
             "3 (średnio ważne)",
