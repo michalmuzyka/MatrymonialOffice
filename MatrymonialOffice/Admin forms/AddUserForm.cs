@@ -98,9 +98,10 @@ namespace MatrymonialOffice.Admin_forms
         {
             return value switch
             {
-                "Nieistotne" => 1,
-                "Bardzo małe" => 2,
-                "Małe" => 3,
+                "Nieważne" => 0,
+                "Bardzo małe" => 1,
+                "Małe" => 2,
+                "Średnie" => 3,
                 "Duże" => 4,
                 "Bardzo duże" => 5,
                 _ => throw new InvalidOperationException()
