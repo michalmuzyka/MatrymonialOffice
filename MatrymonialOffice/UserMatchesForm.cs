@@ -127,7 +127,22 @@ namespace MatrymonialOffice
                 matchedUsers.Add(new UserMatch(user, Math.Round(ratio,10), Math.Round(distance, 2)));
             }
 
-            return matchedUsers.OrderByDescending(u => u.MatchRatio).Where(x => x.MatchRatio != 0).Take(20).ToList();
+            var maxRating = matchedUsers.Select(u => u.MatchRatio).Max();
+
+            if (maxRating != 0)
+            {
+                foreach (var user in matchedUsers)
+                {
+                    user.MatchRatio = user.MatchRatio / maxRating;
+                    user.MatchRatio = user.MatchRatio.TruncateToSignificantDigits(3);
+                }
+            }
+
+            return matchedUsers
+                .OrderByDescending(u => u.MatchRatio)
+                .Where(x => x.MatchRatio != 0)
+                .Take(20)
+                .ToList();
         }
     }
 }
